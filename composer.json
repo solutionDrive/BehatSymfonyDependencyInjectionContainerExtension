@@ -1,0 +1,27 @@
+{
+    "name": "solutiondrive/behat-symfony-dependency-injection-container-extension",
+    "description": "Allows to load additional dependency injection config files for behat",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "solutionDrive GmbH",
+            "email": "info@solutiondrive.de"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+
+        "behat/behat": "^3.4"
+    },
+    "require-dev": {
+        "friends-of-behat/cross-container-extension": "^1.1",
+        "friends-of-behat/test-context": "^1.1"
+    },
+    "suggest": {
+        "friends-of-behat/cross-container-extension": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "solutionDrive\\BehatSymfonyDependencyInjectionContainerExtension\\": "src/" }
+    }
+}
